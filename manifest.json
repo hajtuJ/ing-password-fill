@@ -1,5 +1,6 @@
 {
-  "name": "Command demo - basic",
+  "name": "Ing + 1Password autofill helper",
+  "description": "Add missing functionality 1Password autofill. Get your password suggestion visable under masked password fields of ING PL bank login page.",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
@@ -15,8 +16,8 @@
   ],
   "commands": {
     "copy-password": {
-      "suggested_key": "Ctrl+Shift+5",
-      "description": "Inject a script on the page",
+      "suggested_key": "Alt+P",
+      "description": "Get suggestion of autofilled password under nmasked password fields.",
       "global": true
     }
   }

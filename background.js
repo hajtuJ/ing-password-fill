@@ -20,10 +20,8 @@ function init() {
 					const pass = document.querySelector('input.ing-password-container__password-autocomplete').value;
 					const arrayPass = pass;
 					const inputs = document.querySelectorAll('div.ing-password-container__password--field input');
-					
-					let encodedPass = '';
 
-					const fieldNick = document.querySelector('div.ing-password-container__header p strong');
+					let encodedPass = '';
 					
 					for (let i = 0; i < inputs.length; i++) {
 						
@@ -31,11 +29,12 @@ function init() {
 						const elPos = parseInt(getNumberFromString(el.getAttribute('id')));
 						const passSignPos = elPos - 1;
 						const passLetter = arrayPass[passSignPos];
+						el.nextElementSibling.querySelector('span').innerText = passLetter;
 						encodedPass += passLetter;
 					}
 
-					fieldNick.innerText = encodedPass;
-
+					//focus first input
+					inputs[0].focus();
 	// 			});
 	// 		});
 	// 	})
