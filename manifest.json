@@ -1,7 +1,7 @@
 {
   "name": "Ing + 1Password autofill helper",
   "description": "Dodaj brakującą funkcjonalność 1Password czyli autouzupełnienie maskowanego hasła banku ING PL. Przyśpiesz swoje logowanie!",
-  "version": "1.0.001",
+  "version": "1.0.002",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
