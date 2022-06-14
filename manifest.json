@@ -1,13 +1,12 @@
 {
   "name": "Ing + 1Password autofill helper",
   "description": "Add missing functionality 1Password autofill. Get password suggestion visable under masked password fields of ING PL bank login page",
-  "version": "1.0",
+  "version": "1.0.001",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
   "permissions": [
-    "clipboardRead",
     "tabs",
     "scripting"
   ],
