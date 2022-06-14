@@ -1,0 +1,23 @@
+{
+  "name": "Command demo - basic",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "clipboardRead",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://login.ingbank.pl/"
+  ],
+  "commands": {
+    "copy-password": {
+      "suggested_key": "Ctrl+Shift+5",
+      "description": "Inject a script on the page",
+      "global": true
+    }
+  }
+}
