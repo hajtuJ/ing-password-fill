@@ -13,3 +13,19 @@ __Make sure Your 1Password has added proper ING Bank login credentials with auto
 
 
 ![1 password settings](assets/1password_settings.png)
+
+---
+
+## Donations
+
+If You like my work and U would like to share with me just <br /> 
+<a href="https://www.buymeacoffee.com/hajtuJ" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
+
+---
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2022 © <a href="mailto:bolek.sebastian@gmail.com" target="_blank">bolek.sebastian@gmail.com</a>.
