@@ -16,7 +16,7 @@
   ],
   "commands": {
     "copy-password": {
-      "suggested_key": "Alt+P",
+      "suggested_key": "Ctrl+Shift+5",
       "description": "Get suggestion of autofilled password under nmasked password fields.",
       "global": true
     }
