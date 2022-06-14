@@ -1,6 +1,6 @@
 {
   "name": "Ing + 1Password autofill helper",
-  "description": "Add missing functionality 1Password autofill. Get password suggestion visable under masked password fields of ING PL bank login page",
+  "description": "Dodaj brakującą funkcjonalność 1Password czyli autouzupełnienie maskowanego hasła banku ING PL. Przyśpiesz swoje logowanie!",
   "version": "1.0.001",
   "manifest_version": 3,
   "background": {
@@ -16,7 +16,7 @@
   "commands": {
     "copy-password": {
       "suggested_key": "Ctrl+Shift+5",
-      "description": "Get suggestion of autofilled password under masked password fields."
+      "description": "Dodaje podpowiedź liter maskowanego hasła z 1Password autozupełnienia do Banku ING PL."
     }
   },
   "icons": {
