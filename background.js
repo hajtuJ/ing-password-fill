@@ -8,7 +8,7 @@ function init() {
 	const arrayPass = pass;
 	const inputs = document.querySelectorAll('div.ing-password-container__password--field input');
 
-	let encodedPass = '';
+	let decodedPass = '';
 	
 	for (let i = 0; i < inputs.length; i++) {
 		
@@ -17,12 +17,12 @@ function init() {
 		const passSignPos = elPos - 1;
 		const passLetter = arrayPass[passSignPos];
 		el.nextElementSibling.querySelector('span').innerText = passLetter;
-		encodedPass += passLetter;
+		decodedPass += passLetter;
 	}
 
 	//focus first input
 	inputs[0].focus();
-	
+
 }
 
 chrome.commands.onCommand.addListener((command) => {
