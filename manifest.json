@@ -15,7 +15,7 @@
   ],
   "commands": {
     "copy-password": {
-      "suggested_key": "Ctrl+Shift+5",
+      "suggested_key": "Alt+Shift+5",
       "description": "Dodaje podpowiedź liter maskowanego hasła z 1Password autozupełnienia do Banku ING PL."
     }
   },
